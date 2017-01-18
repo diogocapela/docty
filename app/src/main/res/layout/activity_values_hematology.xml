@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_values_hematology"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diogocapela.docty.ValuesHematologyActivity"
+    android:background="@color/master_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Total red blood cells (RBC) SEM MARGIN TOP -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/hematology_rbc_title"
+                    android:text="@string/hematology_rbc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/hematology_rbc_display"
+                    android:text="@string/hematology_rbc"
+                    android:layout_below="@+id/hematology_rbc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_rbc_unit"
+                    android:text="@string/hematology_rbc_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Hemoglobin (HgB) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_hgb_display"
+                    android:text="@string/hematology_hgb"
+                    android:layout_below="@+id/hematology_hgb_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_hgb_unit"
+                    android:text="@string/hematology_hgb_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_hgb_title"
+                    android:text="@string/hematology_hgb_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Hematocrit (Hct) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_hct_display"
+                    android:text="@string/hematology_hct"
+                    android:layout_below="@+id/hematology_hct_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_hct_unit"
+                    android:text="@string/hematology_hct_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_hct_title"
+                    android:text="@string/hematology_hct_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Mean corpuscular volume (MCV) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_mcv_display"
+                    android:text="@string/hematology_mcv"
+                    android:layout_below="@+id/hematology_mcv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_mcv_unit"
+                    android:text="@string/hematology_mcv_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_mcv_title"
+                    android:text="@string/hematology_mcv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Mean corpuscular hemoglobin (MCH) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_mch_display"
+                    android:text="@string/hematology_mch"
+                    android:layout_below="@+id/hematology_mch_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_mch_unit"
+                    android:text="@string/hematology_mch_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_mch_title"
+                    android:text="@string/hematology_mch_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Mean corpuscular hemoglobin concentration (MCHC) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_mchc_display"
+                    android:text="@string/hematology_mchc"
+                    android:layout_below="@+id/hematology_mchc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_mchc_unit"
+                    android:text="@string/hematology_mchc_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_mchc_title"
+                    android:text="@string/hematology_mchc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Reticulocytes (RET) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_ret_display"
+                    android:text="@string/hematology_ret"
+                    android:layout_below="@+id/hematology_ret_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_ret_unit"
+                    android:text="@string/hematology_ret_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_ret_title"
+                    android:text="@string/hematology_ret_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Total white blood cells (WBC) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_wbc_display"
+                    android:text="@string/hematology_wbc"
+                    android:layout_below="@+id/hematology_wbc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_wbc_unit"
+                    android:text="@string/hematology_wbc_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_wbc_title"
+                    android:text="@string/hematology_wbc_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Platelets (PLT) SEM MARGEM BOTTOM -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/hematology_plt_display"
+                    android:text="@string/hematology_plt"
+                    android:layout_below="@+id/hematology_plt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/hematology_plt_unit"
+                    android:text="@string/hematology_plt_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/hematology_plt_title"
+                    android:text="@string/hematology_plt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

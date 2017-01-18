@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_values_cardiac_markers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diogocapela.docty.ValuesCardiacMarkersActivity"
+    android:background="@color/master_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Myoglobin (Mb) SEM MARGIN TOP -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/cardiacmarkers_myo_title"
+                    android:text="@string/cardiacmarkers_myo_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_myo_display"
+                    android:text="@string/cardiacmarkers_myo"
+                    android:layout_below="@+id/cardiacmarkers_myo_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_myo_unit"
+                    android:text="@string/cardiacmarkers_myo_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Creatine kinase (CK) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/cardiacmarkers_ck_title"
+                    android:text="@string/cardiacmarkers_ck_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_ck_display"
+                    android:text="@string/cardiacmarkers_ck"
+                    android:layout_below="@+id/cardiacmarkers_ck_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_ck_unit"
+                    android:text="@string/cardiacmarkers_ck_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Creatine Kinase MB (CK-MB) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/cardiacmarkers_ckmb_title"
+                    android:text="@string/cardiacmarkers_ckmb_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_ckmb_display"
+                    android:text="@string/cardiacmarkers_ckmb"
+                    android:layout_below="@+id/cardiacmarkers_ckmb_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_ckmb_unit"
+                    android:text="@string/cardiacmarkers_ckmb_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Troponins SEM MARGIN BOTTOM -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/cardiacmarkers_trop_title"
+                    android:text="@string/cardiacmarkers_trop_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_trop_display"
+                    android:text="@string/cardiacmarkers_trop"
+                    android:layout_below="@+id/cardiacmarkers_trop_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/cardiacmarkers_trop_unit"
+                    android:text="@string/cardiacmarkers_trop_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

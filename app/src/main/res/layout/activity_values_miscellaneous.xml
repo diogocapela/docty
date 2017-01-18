@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_values_miscellaneous"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diogocapela.docty.ValuesMiscellaneousActivity"
+    android:background="@color/master_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Alpha-1 antitrypsin (A1AT) SEM MARGIN TOP -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/miscellaneous_a1at_title"
+                    android:text="@string/miscellaneous_a1at_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/miscellaneous_a1at_display"
+                    android:text="@string/miscellaneous_a1at"
+                    android:layout_below="@+id/miscellaneous_a1at_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/miscellaneous_a1at_unit"
+                    android:text="@string/miscellaneous_a1at_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Angiotensin-converting enzyme (ACE) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/miscellaneous_ace_display"
+                    android:text="@string/miscellaneous_ace"
+                    android:layout_below="@+id/miscellaneous_ace_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/miscellaneous_ace_unit"
+                    android:text="@string/miscellaneous_ace_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/miscellaneous_ace_title"
+                    android:text="@string/miscellaneous_ace_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- C-reactive protein (CRP) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/miscellaneous_crp_display"
+                    android:text="@string/miscellaneous_crp"
+                    android:layout_below="@+id/miscellaneous_crp_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/miscellaneous_crp_unit"
+                    android:text="@string/miscellaneous_crp_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/miscellaneous_crp_title"
+                    android:text="@string/miscellaneous_crp_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- D-dimer -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/miscellaneous_dd_display"
+                    android:text="@string/miscellaneous_dd"
+                    android:layout_below="@+id/miscellaneous_dd_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/miscellaneous_dd_unit"
+                    android:text="@string/miscellaneous_dd_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/miscellaneous_dd_title"
+                    android:text="@string/miscellaneous_dd_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Lactate dehydrogenase (LDH) SEM MARGIN BOTTOM-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/miscellaneous_ldh_display"
+                    android:text="@string/miscellaneous_ldh"
+                    android:layout_below="@+id/miscellaneous_ldh_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/miscellaneous_ldh_unit"
+                    android:text="@string/miscellaneous_ldh_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/miscellaneous_ldh_title"
+                    android:text="@string/miscellaneous_ldh_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

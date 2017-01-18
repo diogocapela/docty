@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diogocapela.docty">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- 1. Main -->
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+        <!-- List Values -->
+        <activity
+            android:name=".ListValuesActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Values Vital Signs -->
+        <activity
+            android:name=".ValuesVitalSignsActivity"
+            android:configChanges="orientation"
+            android:label="@string/vitalsigns"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Hematology -->
+        <activity
+            android:name=".ValuesHematologyActivity"
+            android:configChanges="orientation"
+            android:label="@string/hematology"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Coagulation -->
+        <activity
+            android:name=".ValuesCoagulationActivity"
+            android:configChanges="orientation"
+            android:label="@string/coagulation"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Blood Gases -->
+        <activity
+            android:name=".ValuesBloodGasesActivity"
+            android:configChanges="orientation"
+            android:label="@string/bloodgases"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Electrolytes -->
+        <activity
+            android:name=".ValuesElectrolytesActivity"
+            android:configChanges="orientation"
+            android:label="@string/electrolytes"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Lipids -->
+        <activity
+            android:name=".ValuesLipidsActivity"
+            android:configChanges="orientation"
+            android:label="@string/lipids"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Gastrointestinal -->
+        <activity
+            android:name=".ValuesGastrointestinalActivity"
+            android:configChanges="orientation"
+            android:label="@string/gastrointestinal"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Cardiac Markers -->
+        <activity
+            android:name=".ValuesCardiacMarkersActivity"
+            android:configChanges="orientation"
+            android:label="@string/cardiacmarkers"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Tumor Markers -->
+        <activity
+            android:name=".ValuesTumorMarkersActivity"
+            android:configChanges="orientation"
+            android:label="@string/tumormarkers"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Urine -->
+        <activity
+            android:name=".ValuesUrineActivity"
+            android:configChanges="orientation"
+            android:label="@string/urine"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Hormones -->
+        <activity
+            android:name=".ValuesHormonesActivity"
+            android:configChanges="orientation"
+            android:label="@string/hormones"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Vitamins -->
+        <activity
+            android:name=".ValuesVitaminsActivity"
+            android:configChanges="orientation"
+            android:label="@string/vitamins"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Cerebrospinal Fluid -->
+        <activity
+            android:name=".ValuesCerebrospinalFluidActivity"
+            android:configChanges="orientation"
+            android:label="@string/cerebrospinalfluid"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Neurology -->
+        <activity
+            android:name=".ValuesNeurologyActivity"
+            android:configChanges="orientation"
+            android:label="@string/neurology"
+            android:screenOrientation="portrait"></activity>
+
+        <!-- Values Miscellaneous -->
+        <activity
+            android:name=".ValuesMiscellaneousActivity"
+            android:configChanges="orientation"
+            android:label="@string/miscellaneous"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AboutActivity"></activity>
+    </application>
+
+</manifest>

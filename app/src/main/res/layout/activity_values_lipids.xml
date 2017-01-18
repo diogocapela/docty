@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_values_lipids"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diogocapela.docty.ValuesLipidsActivity"
+    android:background="@color/master_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Cholesterol (Total) SEM MARGIN TOP -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/lipids_coltot_title"
+                    android:text="@string/lipids_coltot_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/lipids_coltot_display"
+                    android:text="@string/lipids_coltot"
+                    android:layout_below="@+id/lipids_coltot_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/lipids_coltot_unit"
+                    android:text="@string/lipids_coltot_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- High-density lipoprotein (HDL) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/lipids_colhdl_display"
+                    android:text="@string/lipids_colhdl"
+                    android:layout_below="@+id/lipids_colhdl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/lipids_colhdl_unit"
+                    android:text="@string/lipids_colhdl_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/lipids_colhdl_title"
+                    android:text="@string/lipids_colhdl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Low-density lipoprotein (LDL) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/lipids_colldl_display"
+                    android:text="@string/lipids_colldl"
+                    android:layout_below="@+id/lipids_colldl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/lipids_colldl_unit"
+                    android:text="@string/lipids_colldl_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/lipids_colldl_title"
+                    android:text="@string/lipids_colldl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Triglycerides -->
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/list_padding_sides"
+            android:paddingRight="@dimen/list_padding_sides"
+            android:paddingBottom="@dimen/list_padding_topbottom"
+            android:paddingTop="@dimen/list_padding_topbottom"
+            android:background="@color/list_bg_1"
+            android:layout_marginTop="@dimen/list_margin_topbottom"
+            android:layout_marginBottom="@dimen/list_margin_topbottom"
+            android:layout_marginLeft="@dimen/list_margin_sides"
+            android:layout_marginRight="@dimen/list_margin_sides">
+
+            <TextView
+                android:id="@+id/lipids_trig_display"
+                android:text="@string/lipids_trig"
+                android:layout_below="@+id/lipids_trig_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/display_font_size"
+                android:textColor="@color/display_color" />
+            <TextView
+                android:id="@+id/lipids_trig_unit"
+                android:text="@string/lipids_trig_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="?attr/listPreferredItemHeight"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="@dimen/unit_font_size"
+                android:textColor="@color/unit_color"
+                android:gravity="bottom" />
+
+            <TextView
+                android:id="@+id/lipids_trig_title"
+                android:text="@string/lipids_trig_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/title_font_size"
+                android:textColor="@color/title_color"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+            <!-- End -->
+
+            <!-- Phospholipids (PPL) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/lipids_phos_display"
+                    android:text="@string/lipids_phos"
+                    android:layout_below="@+id/lipids_phos_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/lipids_phos_unit"
+                    android:text="@string/lipids_phos_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/lipids_phos_title"
+                    android:text="@string/lipids_phos_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Very-low-density lipoprotein (VLDL) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/lipids_colvldl_display"
+                    android:text="@string/lipids_colvldl"
+                    android:layout_below="@+id/lipids_colvldl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/lipids_colvldl_unit"
+                    android:text="@string/lipids_colvldl_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/lipids_colvldl_title"
+                    android:text="@string/lipids_colvldl_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Cholesterol:HDL Ratio SEM MARGIN BOTTOM -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <TextView
+                    android:id="@+id/lipids_colratio_display"
+                    android:text="@string/lipids_colratio"
+                    android:layout_below="@+id/lipids_colratio_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/lipids_colratio_unit"
+                    android:text="@string/lipids_colratio_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+
+                <TextView
+                    android:id="@+id/lipids_colratio_title"
+                    android:text="@string/lipids_colratio_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <!-- End -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

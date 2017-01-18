@@ -1,0 +1,562 @@
+<resources>
+
+    <string name="app_name">Docty</string>
+
+    <!-- Vital Signs -->
+    <string name="vitalsigns">Vital Signs</string>
+
+    <string name="vitalsigns_temperature_title"></string>
+    <string name="vitalsigns_temperature"></string>
+    <string name="vitalsigns_temperature_unit"></string>
+
+    <string name="vitalsigns_pulserate_title"></string>
+    <string name="vitalsigns_pulserate"></string>
+    <string name="vitalsigns_pulserate_unit"></string>
+
+    <string name="vitalsigns_respirationrate_title"></string>
+    <string name="vitalsigns_respirationrate"></string>
+    <string name="vitalsigns_respirationrate_unit"></string>
+
+    <string name="vitalsigns_bloodpressure_title"></string>
+    <string name="vitalsigns_bloodpressure"></string>
+    <string name="vitalsigns_bloodpressure_unit"></string>
+    <!-- End -->
+
+    <!-- Hematology -->
+    <string name="hematology">Hematology</string>
+
+    <string name="hematology_rbc_title"></string>
+    <string name="hematology_rbc"></string>
+    <string name="hematology_rbc_unit"></string>
+
+    <string name="hematology_hgb_title"></string>
+    <string name="hematology_hgb"></string>
+    <string name="hematology_hgb_unit"></string>
+
+    <string name="hematology_hct_title"></string>
+    <string name="hematology_hct"></string>
+    <string name="hematology_hct_unit"></string>
+
+    <string name="hematology_mcv_title"></string>
+    <string name="hematology_mcv"></string>
+    <string name="hematology_mcv_unit"></string>
+
+    <string name="hematology_mch_title"></string>
+    <string name="hematology_mch"></string>
+    <string name="hematology_mch_unit"></string>
+
+    <string name="hematology_mchc_title"></string>
+    <string name="hematology_mchc"></string>
+    <string name="hematology_mchc_unit"></string>
+
+    <string name="hematology_ret_title"></string>
+    <string name="hematology_ret"></string>
+    <string name="hematology_ret_unit"></string>
+
+    <string name="hematology_wbc_title"></string>
+    <string name="hematology_wbc"></string>
+    <string name="hematology_wbc_unit"></string>
+
+    <string name="hematology_plt_title"></string>
+    <string name="hematology_plt"></string>
+    <string name="hematology_plt_unit"></string>
+    <!-- End -->
+
+    <!-- Coagulation -->
+    <string name="coagulation">Coagulation</string>
+
+    <string name="coagulation_pt_title"></string>
+    <string name="coagulation_pt"></string>
+    <string name="coagulation_pt_unit"></string>
+
+    <string name="coagulation_ptt_title"></string>
+    <string name="coagulation_ptt"></string>
+    <string name="coagulation_ptt_unit"></string>
+
+    <string name="coagulation_inr_title"></string>
+    <string name="coagulation_inr"></string>
+    <string name="coagulation_inr_unit"></string>
+
+    <string name="coagulation_tt_title"></string>
+    <string name="coagulation_tt"></string>
+    <string name="coagulation_tt_unit"></string>
+
+    <string name="coagulation_plg_title"></string>
+    <string name="coagulation_plg"></string>
+    <string name="coagulation_plg_unit"></string>
+
+    <string name="coagulation_fsp_title"></string>
+    <string name="coagulation_fsp"></string>
+    <string name="coagulation_fsp_unit"></string>
+
+    <string name="coagulation_bt_title"></string>
+    <string name="coagulation_bt"></string>
+    <string name="coagulation_bt_unit"></string>
+
+    <string name="coagulation_fibri_title"></string>
+    <string name="coagulation_fibri"></string>
+    <string name="coagulation_fibri_unit"></string>
+
+    <string name="coagulation_act_title"></string>
+    <string name="coagulation_act"></string>
+    <string name="coagulation_act_unit"></string>
+
+    <string name="coagulation_plt_title"></string>
+    <string name="coagulation_plt"></string>
+    <string name="coagulation_plt_unit"></string>
+    <!-- End -->
+
+    <!-- Blood Gases -->
+    <string name="bloodgases">Blood Gases</string>
+
+    <string name="bloodgases_ph_title"></string>
+    <string name="bloodgases_ph"></string>
+    <string name="bloodgases_ph_unit"></string>
+
+    <string name="bloodgases_pao2_title"></string>
+    <string name="bloodgases_pao2"></string>
+    <string name="bloodgases_pao2_unit"></string>
+
+    <string name="bloodgases_paco2_title"></string>
+    <string name="bloodgases_paco2"></string>
+    <string name="bloodgases_paco2_unit"></string>
+
+    <string name="bloodgases_sao2_title"></string>
+    <string name="bloodgases_sao2"></string>
+    <string name="bloodgases_sao2_unit"></string>
+
+    <string name="bloodgases_hco3_title"></string>
+    <string name="bloodgases_hco3"></string>
+    <string name="bloodgases_hco3_unit"></string>
+
+    <string name="bloodgases_be_title"></string>
+    <string name="bloodgases_be"></string>
+    <string name="bloodgases_be_unit"></string>
+    <!-- End -->
+
+    <!-- Electrolytes -->
+    <string name="electrolytes">Electrolytes</string>
+
+    <string name="electrolytes_nh3_title"></string>
+    <string name="electrolytes_nh3"></string>
+    <string name="electrolytes_nh3_unit"></string>
+
+    <string name="electrolytes_ca2_title"></string>
+    <string name="electrolytes_ca2"></string>
+    <string name="electrolytes_ca2_unit"></string>
+
+    <string name="electrolytes_ceru_title"></string>
+    <string name="electrolytes_ceru"></string>
+    <string name="electrolytes_ceru_unit"></string>
+
+    <string name="electrolytes_cl_title"></string>
+    <string name="electrolytes_cl"></string>
+    <string name="electrolytes_cl_unit"></string>
+
+    <string name="electrolytes_cu_title"></string>
+    <string name="electrolytes_cu"></string>
+    <string name="electrolytes_cu_unit"></string>
+
+    <string name="electrolytes_crea_title"></string>
+    <string name="electrolytes_crea"></string>
+    <string name="electrolytes_crea_unit"></string>
+
+    <string name="electrolytes_ferr_title"></string>
+    <string name="electrolytes_ferr"></string>
+    <string name="electrolytes_ferr_unit"></string>
+
+    <string name="electrolytes_glu_title"></string>
+    <string name="electrolytes_glu"></string>
+    <string name="electrolytes_glu_unit"></string>
+
+    <string name="electrolytes_fe2_title"></string>
+    <string name="electrolytes_fe2"></string>
+    <string name="electrolytes_fe2_unit"></string>
+
+    <string name="electrolytes_mg_title"></string>
+    <string name="electrolytes_mg"></string>
+    <string name="electrolytes_mg_unit"></string>
+
+    <string name="electrolytes_po4_title"></string>
+    <string name="electrolytes_po4"></string>
+    <string name="electrolytes_po4_unit"></string>
+
+    <string name="electrolytes_k_title"></string>
+    <string name="electrolytes_k"></string>
+    <string name="electrolytes_k_unit"></string>
+
+    <string name="electrolytes_pyr_title"></string>
+    <string name="electrolytes_pyr"></string>
+    <string name="electrolytes_pyr_unit"></string>
+
+    <string name="electrolytes_na_title"></string>
+    <string name="electrolytes_na"></string>
+    <string name="electrolytes_na_unit"></string>
+
+    <string name="electrolytes_trans_title"></string>
+    <string name="electrolytes_trans"></string>
+    <string name="electrolytes_trans_unit"></string>
+
+    <string name="electrolytes_urea_title"></string>
+    <string name="electrolytes_urea"></string>
+    <string name="electrolytes_urea_unit"></string>
+
+    <string name="electrolytes_uric_title"></string>
+    <string name="electrolytes_uric"></string>
+    <string name="electrolytes_uric_unit"></string>
+
+    <string name="electrolytes_zn_title"></string>
+    <string name="electrolytes_zn"></string>
+    <string name="electrolytes_zn_unit"></string>
+    <!-- End -->
+
+    <!-- Lipids -->
+    <string name="lipids">Lipids</string>
+
+    <string name="lipids_coltot_title"></string>
+    <string name="lipids_coltot"></string>
+    <string name="lipids_coltot_unit"></string>
+
+    <string name="lipids_colhdl_title"></string>
+    <string name="lipids_colhdl"></string>
+    <string name="lipids_colhdl_unit"></string>
+
+    <string name="lipids_colldl_title"></string>
+    <string name="lipids_colldl"></string>
+    <string name="lipids_colldl_unit"></string>
+
+    <string name="lipids_trig_title"></string>
+    <string name="lipids_trig"></string>
+    <string name="lipids_trig_unit"></string>
+
+    <string name="lipids_phos_title"></string>
+    <string name="lipids_phos"></string>
+    <string name="lipids_phos_unit"></string>
+
+    <string name="lipids_colvldl_title"></string>
+    <string name="lipids_colvldl"></string>
+    <string name="lipids_colvldl_unit"></string>
+
+    <string name="lipids_colratio_title"></string>
+    <string name="lipids_colratio"></string>
+    <string name="lipids_colratio_unit"></string>
+    <!-- End -->
+
+    <!-- Gastrointestinal -->
+    <string name="gastrointestinal">Gastrointestinal</string>
+
+    <string name="gastrointestinal_alb_title"></string>
+    <string name="gastrointestinal_alb"></string>
+    <string name="gastrointestinal_alb_unit"></string>
+
+    <string name="gastrointestinal_alp_title"></string>
+    <string name="gastrointestinal_alp"></string>
+    <string name="gastrointestinal_alp_unit"></string>
+
+    <string name="gastrointestinal_amy_title"></string>
+    <string name="gastrointestinal_amy"></string>
+    <string name="gastrointestinal_amy_unit"></string>
+
+    <string name="gastrointestinal_alt_title"></string>
+    <string name="gastrointestinal_alt"></string>
+    <string name="gastrointestinal_alt_unit"></string>
+
+    <string name="gastrointestinal_ast_title"></string>
+    <string name="gastrointestinal_ast"></string>
+    <string name="gastrointestinal_ast_unit"></string>
+
+    <string name="gastrointestinal_dbir_title"></string>
+    <string name="gastrointestinal_dbir"></string>
+    <string name="gastrointestinal_dbir_unit"></string>
+
+    <string name="gastrointestinal_tbir_title"></string>
+    <string name="gastrointestinal_tbir"></string>
+    <string name="gastrointestinal_tbir_unit"></string>
+
+    <string name="gastrointestinal_ggt_title"></string>
+    <string name="gastrointestinal_ggt"></string>
+    <string name="gastrointestinal_ggt_unit"></string>
+
+    <string name="gastrointestinal_lip_title"></string>
+    <string name="gastrointestinal_lip"></string>
+    <string name="gastrointestinal_lip_unit"></string>
+
+    <string name="gastrointestinal_prot_title"></string>
+    <string name="gastrointestinal_prot"></string>
+    <string name="gastrointestinal_prot_unit"></string>
+    <!-- End -->
+
+    <!-- Cardiac Markers -->
+    <string name="cardiacmarkers">Cardiac Markers</string>
+
+    <string name="cardiacmarkers_myo_title"></string>
+    <string name="cardiacmarkers_myo"></string>
+    <string name="cardiacmarkers_myo_unit"></string>
+
+    <string name="cardiacmarkers_ck_title"></string>
+    <string name="cardiacmarkers_ck"></string>
+    <string name="cardiacmarkers_ck_unit"></string>
+
+    <string name="cardiacmarkers_ckmb_title"></string>
+    <string name="cardiacmarkers_ckmb"></string>
+    <string name="cardiacmarkers_ckmb_unit"></string>
+
+    <string name="cardiacmarkers_trop_title"></string>
+    <string name="cardiacmarkers_trop"></string>
+    <string name="cardiacmarkers_trop_unit"></string>
+    <!-- End -->
+
+    <!-- Tumor Markers -->
+    <string name="tumormarkers">Tumor Markers</string>
+
+    <string name="tumormarkers_afp_title"></string>
+    <string name="tumormarkers_afp"></string>
+    <string name="tumormarkers_afp_unit"></string>
+
+    <string name="tumormarkers_hcg_title"></string>
+    <string name="tumormarkers_hcg"></string>
+    <string name="tumormarkers_hcg_unit"></string>
+
+    <string name="tumormarkers_ca199_title"></string>
+    <string name="tumormarkers_ca199"></string>
+    <string name="tumormarkers_ca199_unit"></string>
+
+    <string name="tumormarkers_cea_title"></string>
+    <string name="tumormarkers_cea"></string>
+    <string name="tumormarkers_cea_unit"></string>
+
+    <string name="tumormarkers_pap_title"></string>
+    <string name="tumormarkers_pap"></string>
+    <string name="tumormarkers_pap_unit"></string>
+
+    <string name="tumormarkers_psa_title"></string>
+    <string name="tumormarkers_psa"></string>
+    <string name="tumormarkers_psa_unit"></string>
+    <!-- End -->
+
+    <!-- Urine -->
+    <string name="urine">Urine</string>
+
+    <string name="urine_app_title"></string>
+    <string name="urine_app"></string>
+    <string name="urine_app_unit"></string>
+
+    <string name="urine_ph_title"></string>
+    <string name="urine_ph"></string>
+    <string name="urine_ph_unit"></string>
+
+    <string name="urine_osmo_title"></string>
+    <string name="urine_osmo"></string>
+    <string name="urine_osmo_unit"></string>
+
+    <string name="urine_cl_title"></string>
+    <string name="urine_cl"></string>
+    <string name="urine_cl_unit"></string>
+
+    <string name="urine_na_title"></string>
+    <string name="urine_na"></string>
+    <string name="urine_na_unit"></string>
+
+    <string name="urine_k_title"></string>
+    <string name="urine_k"></string>
+    <string name="urine_k_unit"></string>
+
+    <string name="urine_blood_title"></string>
+    <string name="urine_blood"></string>
+    <string name="urine_blood_unit"></string>
+
+    <string name="urine_bilirubin_title"></string>
+    <string name="urine_bilirubin"></string>
+    <string name="urine_bilirubin_unit"></string>
+
+    <string name="urine_leukocytes_title"></string>
+    <string name="urine_leukocytes"></string>
+    <string name="urine_leukocytes_unit"></string>
+
+    <string name="urine_ketones_title"></string>
+    <string name="urine_ketones"></string>
+    <string name="urine_ketones_unit"></string>
+
+    <string name="urine_rbc_title"></string>
+    <string name="urine_rbc"></string>
+    <string name="urine_rbc_unit"></string>
+
+    <string name="urine_wbc_title"></string>
+    <string name="urine_wbc"></string>
+    <string name="urine_wbc_unit"></string>
+
+    <string name="urine_protein_title"></string>
+    <string name="urine_protein"></string>
+    <string name="urine_protein_unit"></string>
+    <!-- End -->
+
+    <!-- Hormones -->
+    <string name="hormones">Hormones</string>
+
+    <string name="hormones_17ohcs_title"></string>
+    <string name="hormones_17ohcs"></string>
+    <string name="hormones_17ohcs_unit"></string>
+
+    <string name="hormones_acth_title"></string>
+    <string name="hormones_acth"></string>
+    <string name="hormones_acth_unit"></string>
+
+    <string name="hormones_afp_title"></string>
+    <string name="hormones_afp"></string>
+    <string name="hormones_afp_unit"></string>
+
+    <string name="hormones_adh_title"></string>
+    <string name="hormones_adh"></string>
+    <string name="hormones_adh_unit"></string>
+
+    <string name="hormones_calcitonin_title"></string>
+    <string name="hormones_calcitonin"></string>
+    <string name="hormones_calcitonin_unit"></string>
+
+    <string name="hormones_epi_title"></string>
+    <string name="hormones_epi"></string>
+    <string name="hormones_epi_unit"></string>
+
+    <string name="hormones_norepi_title"></string>
+    <string name="hormones_norepi"></string>
+    <string name="hormones_norepi_unit"></string>
+
+    <string name="hormones_cortisol_title"></string>
+    <string name="hormones_cortisol"></string>
+    <string name="hormones_cortisol_unit"></string>
+
+    <string name="hormones_gh_title"></string>
+    <string name="hormones_gh"></string>
+    <string name="hormones_gh_unit"></string>
+
+    <string name="hormones_lh_title"></string>
+    <string name="hormones_lh"></string>
+    <string name="hormones_lh_unit"></string>
+
+    <string name="hormones_pth_title"></string>
+    <string name="hormones_pth"></string>
+    <string name="hormones_pth_unit"></string>
+
+    <string name="hormones_prl_title"></string>
+    <string name="hormones_prl"></string>
+    <string name="hormones_prl_unit"></string>
+
+    <string name="hormones_serot_title"></string>
+    <string name="hormones_serot"></string>
+    <string name="hormones_serot_unit"></string>
+
+    <string name="hormones_t3_title"></string>
+    <string name="hormones_t3"></string>
+    <string name="hormones_t3_unit"></string>
+
+    <string name="hormones_t4_title"></string>
+    <string name="hormones_t4"></string>
+    <string name="hormones_t4_unit"></string>
+
+    <string name="hormones_testo_title"></string>
+    <string name="hormones_testo"></string>
+    <string name="hormones_testo_unit"></string>
+
+    <string name="hormones_tsh_title"></string>
+    <string name="hormones_tsh"></string>
+    <string name="hormones_tsh_unit"></string>
+    <!-- End -->
+
+    <!-- Vitamins -->
+    <string name="vitamins">Vitamins</string>
+
+    <string name="vitamins_vita_title"></string>
+    <string name="vitamins_vita"></string>
+    <string name="vitamins_vita_unit"></string>
+
+    <string name="vitamins_vitb9_title"></string>
+    <string name="vitamins_vitb9"></string>
+    <string name="vitamins_vitb9_unit"></string>
+
+    <string name="vitamins_vitb12_title"></string>
+    <string name="vitamins_vitb12"></string>
+    <string name="vitamins_vitb12_unit"></string>
+
+    <string name="vitamins_vitc_title"></string>
+    <string name="vitamins_vitc"></string>
+    <string name="vitamins_vitc_unit"></string>
+
+    <string name="vitamins_vitd_title"></string>
+    <string name="vitamins_vitd"></string>
+    <string name="vitamins_vitd_unit"></string>
+    <!-- End -->
+
+    <!-- Cerebrospinal Fluid -->
+    <string name="cerebrospinalfluid">Cerebrospinal Fluid</string>
+
+    <string name="cerebrospinalfluid_appearance_title"></string>
+    <string name="cerebrospinalfluid_appearance"></string>
+    <string name="cerebrospinalfluid_appearance_unit"></string>
+
+    <string name="cerebrospinalfluid_glucose_title"></string>
+    <string name="cerebrospinalfluid_glucose"></string>
+    <string name="cerebrospinalfluid_glucose_unit"></string>
+
+    <string name="cerebrospinalfluid_osmolality_title"></string>
+    <string name="cerebrospinalfluid_osmolality"></string>
+    <string name="cerebrospinalfluid_osmolality_unit"></string>
+
+    <string name="cerebrospinalfluid_pressure_title"></string>
+    <string name="cerebrospinalfluid_pressure"></string>
+    <string name="cerebrospinalfluid_pressure_unit"></string>
+
+    <string name="cerebrospinalfluid_protein_title"></string>
+    <string name="cerebrospinalfluid_protein"></string>
+    <string name="cerebrospinalfluid_protein_unit"></string>
+
+    <string name="cerebrospinalfluid_globulin_title"></string>
+    <string name="cerebrospinalfluid_globulin"></string>
+    <string name="cerebrospinalfluid_globulin_unit"></string>
+
+    <string name="cerebrospinalfluid_wbcell_title"></string>
+    <string name="cerebrospinalfluid_wbcell"></string>
+    <string name="cerebrospinalfluid_wbcell_unit"></string>
+
+    <string name="cerebrospinalfluid_chloride_title"></string>
+    <string name="cerebrospinalfluid_chloride"></string>
+    <string name="cerebrospinalfluid_chloride_unit"></string>
+    <!-- End -->
+
+    <!-- Neurology -->
+    <string name="neurology">Neurology</string>
+
+    <string name="neurology_icp_title"></string>
+    <string name="neurology_icp"></string>
+    <string name="neurology_icp_unit"></string>
+
+    <string name="neurology_cpp_title"></string>
+    <string name="neurology_cpp"></string>
+    <string name="neurology_cpp_unit"></string>
+    <!-- End -->
+
+    <!-- Miscellaneous -->
+    <string name="miscellaneous">Miscellaneous</string>
+
+    <string name="miscellaneous_a1at_title"></string>
+    <string name="miscellaneous_a1at"></string>
+    <string name="miscellaneous_a1at_unit"></string>
+
+    <string name="miscellaneous_ace_title"></string>
+    <string name="miscellaneous_ace"></string>
+    <string name="miscellaneous_ace_unit"></string>
+
+    <string name="miscellaneous_crp_title"></string>
+    <string name="miscellaneous_crp"></string>
+    <string name="miscellaneous_crp_unit"></string>
+
+    <string name="miscellaneous_dd_title"></string>
+    <string name="miscellaneous_dd"></string>
+    <string name="miscellaneous_dd_unit"></string>
+
+    <string name="miscellaneous_ldh_title"></string>
+    <string name="miscellaneous_ldh"></string>
+    <string name="miscellaneous_ldh_unit"></string>
+    <!-- End -->
+
+
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_e03de23e5c9eb110e9f331d648fffa7ca46cf47b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.0.1_e03de23e5c9eb110e9f331d648fffa7ca46cf47b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_e612c29da239a9bb83fa1c4458b976e2c5c2c1af/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.0.1_e612c29da239a9bb83fa1c4458b976e2c5c2c1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_402a421839820edf62a33a5ce49c31361428aa24.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_4338bbd07a86737e343e1bbe922a83acc7af66f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_83d4ec9f7a3749ab728b533b953f8b3c27fdd9fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_32d60b97a7c2cca740ac9a67acf4371915360e6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_402a421839820edf62a33a5ce49c31361428aa24/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.0.1_25117f8dd305931bf95eddc9f08706f8e07e9b9d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_67ccedc4b8993ce2cb66b2edb3a03e55ba4195df/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.0.1_32d60b97a7c2cca740ac9a67acf4371915360e6d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_25117f8dd305931bf95eddc9f08706f8e07e9b9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/support-annotations-25.0.1_4338bbd07a86737e343e1bbe922a83acc7af66f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.0.1_83d4ec9f7a3749ab728b533b953f8b3c27fdd9fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.0.1_744cd95cb3f9ed7a12b55e4d2c6517e9ffbec877.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_744cd95cb3f9ed7a12b55e4d2c6517e9ffbec877/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.0.1_67ccedc4b8993ce2cb66b2edb3a03e55ba4195df.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_71db460d83eb618860c6351afc9e6264e819bf4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.0.1_71db460d83eb618860c6351afc9e6264e819bf4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_6723e5d8745a96bf731dd98759513b0c182ba9b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.0.1_44c54f03a30e8a1a0aebdfc44b5dbc94c476cc44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_9a1ac860524de105dca01cca2489cfc9e1f6ac9d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="72ad87a13f2f5c02d7473bdf77c14d52cd401719">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1ba07394865972e53643a4674a5a19c9895b8a5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_8a51fb15e38a11469ea9b7a17193dd6ee0327b0e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8a51fb15e38a11469ea9b7a17193dd6ee0327b0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_6723e5d8745a96bf731dd98759513b0c182ba9b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_9a1ac860524de105dca01cca2489cfc9e1f6ac9d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4596789187adac8d73f289b70953be408031d99c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/pre-dexed/release/internal_impl-25.0.1_4596789187adac8d73f289b70953be408031d99c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_44c54f03a30e8a1a0aebdfc44b5dbc94c476cc44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0ab7f186498a6c173431230c7657447bd71ddc2">
+        <dex dex="/Users/diogocapela/AndroidStudioProjects/Docty/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_647c6ddaeaabc614d004959fca3fe4bbbebdea36/classes.dex" />
+    </item>
+
+</items>

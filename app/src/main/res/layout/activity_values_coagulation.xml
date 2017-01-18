@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_values_coagulation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diogocapela.docty.ValuesCoagulationActivity"
+    android:background="@color/master_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Prothrombin time (PT) SEM MARGIN TOP -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_pt_title"
+                    android:text="@string/coagulation_pt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_pt_display"
+                    android:text="@string/coagulation_pt"
+                    android:layout_below="@+id/coagulation_pt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_pt_unit"
+                    android:text="@string/coagulation_pt_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Partial thromboplastin time (PTT) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_ptt_title"
+                    android:text="@string/coagulation_ptt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_ptt_display"
+                    android:text="@string/coagulation_ptt"
+                    android:layout_below="@+id/coagulation_ptt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_ptt_unit"
+                    android:text="@string/coagulation_ptt_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- International normalized ratio (INR) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_inr_title"
+                    android:text="@string/coagulation_inr_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_inr_display"
+                    android:text="@string/coagulation_inr"
+                    android:layout_below="@+id/coagulation_inr_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_inr_unit"
+                    android:text="@string/coagulation_inr_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Thrombin time (TT) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_tt_title"
+                    android:text="@string/coagulation_tt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_tt_display"
+                    android:text="@string/coagulation_tt"
+                    android:layout_below="@+id/coagulation_tt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_tt_unit"
+                    android:text="@string/coagulation_tt_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Plasminogen (PLG) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_plg_title"
+                    android:text="@string/coagulation_plg_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_plg_display"
+                    android:text="@string/coagulation_plg"
+                    android:layout_below="@+id/coagulation_plg_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_plg_unit"
+                    android:text="@string/coagulation_plg_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Fibrin split products (FSP) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_fsp_title"
+                    android:text="@string/coagulation_fsp_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_fsp_display"
+                    android:text="@string/coagulation_fsp"
+                    android:layout_below="@+id/coagulation_fsp_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_fsp_unit"
+                    android:text="@string/coagulation_fsp_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Bleeding time -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_bt_title"
+                    android:text="@string/coagulation_bt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_bt_display"
+                    android:text="@string/coagulation_bt"
+                    android:layout_below="@+id/coagulation_bt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_bt_unit"
+                    android:text="@string/coagulation_bt_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Fibrinogen -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_fibri_title"
+                    android:text="@string/coagulation_fibri_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_fibri_display"
+                    android:text="@string/coagulation_fibri"
+                    android:layout_below="@+id/coagulation_fibri_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_fibri_unit"
+                    android:text="@string/coagulation_fibri_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Activated clotting time (ACT) -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_act_title"
+                    android:text="@string/coagulation_act_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_act_display"
+                    android:text="@string/coagulation_act"
+                    android:layout_below="@+id/coagulation_act_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_act_unit"
+                    android:text="@string/coagulation_act_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Platelets (PLT) SEM MARGIN BOTTOM -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/list_padding_sides"
+                android:paddingRight="@dimen/list_padding_sides"
+                android:paddingBottom="@dimen/list_padding_topbottom"
+                android:paddingTop="@dimen/list_padding_topbottom"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+                <TextView
+                    android:id="@+id/coagulation_plt_title"
+                    android:text="@string/coagulation_plt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:textSize="@dimen/title_font_size"
+                    android:textColor="@color/title_color" />
+                <TextView
+                    android:id="@+id/coagulation_plt_display"
+                    android:text="@string/coagulation_plt"
+                    android:layout_below="@+id/coagulation_plt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/display_font_size"
+                    android:textColor="@color/display_color" />
+                <TextView
+                    android:id="@+id/coagulation_plt_unit"
+                    android:text="@string/coagulation_plt_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/listPreferredItemHeight"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="@dimen/unit_font_size"
+                    android:textColor="@color/unit_color"
+                    android:gravity="bottom" />
+            </RelativeLayout>
+            <!-- End -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

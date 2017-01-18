@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_list_values"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diogocapela.docty.ListValuesActivity"
+    android:background="@color/master_bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Vital Signs NO MARGIN TOP-->
+            <RelativeLayout
+                android:id="@+id/vitalsigns_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_vitalsigns"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_vitalsigns"
+                    android:id="@+id/image_vitalsigns"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/vitalsigns"
+                    android:layout_toRightOf="@+id/image_vitalsigns"
+                    android:layout_toEndOf="@+id/image_vitalsigns"
+                    android:id="@+id/text_vitalsigns"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Hematology -->
+            <RelativeLayout
+                android:id="@+id/hematology_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_hematology"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_hematology"
+                    android:id="@+id/image_hematology"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/hematology"
+                    android:layout_toRightOf="@+id/image_hematology"
+                    android:layout_toEndOf="@+id/image_hematology"
+                    android:id="@+id/text_hematology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Coagulation -->
+            <RelativeLayout
+                android:id="@+id/coagulation_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_coagulation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_coagulation"
+                    android:id="@+id/image_coagulation"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/coagulation"
+                    android:layout_toRightOf="@+id/image_coagulation"
+                    android:layout_toEndOf="@+id/image_coagulation"
+                    android:id="@+id/text_coagulation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Blood Gases -->
+            <RelativeLayout
+                android:id="@+id/bloodgases_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_bloodgases"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_bloodgases"
+                    android:id="@+id/image_bloodgases"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/bloodgases"
+                    android:layout_toRightOf="@+id/image_bloodgases"
+                    android:layout_toEndOf="@+id/image_bloodgases"
+                    android:id="@+id/text_bloodgases"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Electrolytes -->
+            <RelativeLayout
+                android:id="@+id/electrolytes_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_electrolytes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_electrolytes"
+                    android:id="@+id/image_electrolytes"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/electrolytes"
+                    android:layout_toRightOf="@+id/image_electrolytes"
+                    android:layout_toEndOf="@+id/image_electrolytes"
+                    android:id="@+id/text_electrolytes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Lipids -->
+            <RelativeLayout
+                android:id="@+id/lipids_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_lipids"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_lipids"
+                    android:id="@+id/image_lipids"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/lipids"
+                    android:layout_toRightOf="@+id/image_lipids"
+                    android:layout_toEndOf="@+id/image_lipids"
+                    android:id="@+id/text_lipids"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Gastrointestinal -->
+            <RelativeLayout
+                android:id="@+id/gastrointestinal_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_gastrointestinal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_gastrointestinal"
+                    android:id="@+id/image_gastrointestinal"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/gastrointestinal"
+                    android:layout_toRightOf="@+id/image_gastrointestinal"
+                    android:layout_toEndOf="@+id/image_gastrointestinal"
+                    android:id="@+id/text_gastrointestinal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Cardiac Markers -->
+            <RelativeLayout
+                android:id="@+id/cardiacmarkers_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_cardiacmarkers"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_cardiacmarkers"
+                    android:id="@+id/image_cardiacmarkers"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/cardiacmarkers"
+                    android:layout_toRightOf="@+id/image_cardiacmarkers"
+                    android:layout_toEndOf="@+id/image_cardiacmarkers"
+                    android:id="@+id/text_cardiacmarkers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Tumor Markers -->
+            <RelativeLayout
+                android:id="@+id/tumormarkers_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_tumormarkers"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_tumormarkers"
+                    android:id="@+id/image_tumormarkers"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/tumormarkers"
+                    android:layout_toRightOf="@+id/image_tumormarkers"
+                    android:layout_toEndOf="@+id/image_tumormarkers"
+                    android:id="@+id/text_tumormarkers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Urine -->
+            <RelativeLayout
+                android:id="@+id/urine_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_urine"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_urine"
+                    android:id="@+id/image_urine"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/urine"
+                    android:layout_toRightOf="@+id/image_urine"
+                    android:layout_toEndOf="@+id/image_urine"
+                    android:id="@+id/text_urine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Hormones -->
+            <RelativeLayout
+                android:id="@+id/hormones_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_hormones"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_hormones"
+                    android:id="@+id/image_hormones"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/hormones"
+                    android:layout_toRightOf="@+id/image_hormones"
+                    android:layout_toEndOf="@+id/image_hormones"
+                    android:id="@+id/text_hormones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Vitamins -->
+            <RelativeLayout
+                android:id="@+id/vitamins_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_vitamins"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_vitamins"
+                    android:id="@+id/image_vitamins"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/vitamins"
+                    android:layout_toRightOf="@+id/image_vitamins"
+                    android:layout_toEndOf="@+id/image_vitamins"
+                    android:id="@+id/text_vitamins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Cerebrospinal Fluid -->
+            <RelativeLayout
+                android:id="@+id/cerebrospinalfluid_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_cerebrospinalfluid"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_cerebrospinalfluid"
+                    android:id="@+id/image_cerebrospinalfluid"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/cerebrospinalfluid"
+                    android:layout_toRightOf="@+id/image_cerebrospinalfluid"
+                    android:layout_toEndOf="@+id/image_cerebrospinalfluid"
+                    android:id="@+id/text_cerebrospinalfluid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Neurology -->
+            <RelativeLayout
+                android:id="@+id/neurology_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_neurology"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_neurology"
+                    android:id="@+id/image_neurology"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/neurology"
+                    android:layout_toRightOf="@+id/image_neurology"
+                    android:layout_toEndOf="@+id/image_neurology"
+                    android:id="@+id/text_neurology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- Miscellaneous -->
+            <RelativeLayout
+                android:id="@+id/miscellaneous_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_height="?attr/listPreferredItemHeightLarge"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginBottom="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides">
+
+                <Button
+                    android:id="@+id/button_miscellaneous"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <ImageView
+                    app:srcCompat="@mipmap/ic_list_miscellaneous"
+                    android:id="@+id/image_miscellaneous"
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:text="@string/miscellaneous"
+                    android:layout_toRightOf="@+id/image_miscellaneous"
+                    android:layout_toEndOf="@+id/image_miscellaneous"
+                    android:id="@+id/text_miscellaneous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/menu_color"
+                    android:textSize="@dimen/menu_font_size"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+            <!-- diogocapela SEM MARGEM BOTTOm -->
+            <RelativeLayout
+                android:id="@+id/diogocapela_layout"
+                android:layout_width="match_parent"
+                android:background="@color/list_bg_1"
+                android:layout_marginTop="@dimen/list_margin_topbottom"
+                android:layout_marginLeft="@dimen/list_margin_sides"
+                android:layout_marginRight="@dimen/list_margin_sides"
+                android:layout_height="40dp">
+
+                <Button
+                    android:id="@+id/button_diogocapela"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center" />
+
+                <TextView
+                    android:text="made with love by diogocapela"
+                    android:id="@+id/text_diogocapela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/menu_color"
+                    android:textSize="14sp"
+                    android:gravity="center_vertical|center|clip_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+            <!-- End -->
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
